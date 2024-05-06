@@ -1,0 +1,39 @@
+* {
+    font-family: 'fira code';
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding: 20px;
+}
+.cart {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+.cart i, .cart p {
+    margin-right: 5px; 
+}
+.cart p {
+    margin-bottom: 0; 
+}
+.fa-solid {
+    color: goldenrod; 
+}
+.cart .count{
+    color: goldenrod;
+}
+/* Support for older WebKit browsers if necessary */
+
+selector {
+    -webkit-text-size-adjust: 100%;
+}
+selector {
+    text-size-adjust: 100%;
+}
+.modal-body {
+    max-height: 60vh; 
+    overflow-y: auto; 
+}
+
